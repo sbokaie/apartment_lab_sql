@@ -1,0 +1,39 @@
+1. \dt
+
+2. \du
+
+3. SELECT * FROM owners;
+
+4. SELECT name FROM owners;
+
+5. SELECT * FROM owners ORDER BY age ASC;
+
+6. SELECT * FROM owners WHERE name='Donald';
+
+7. SELECT * FROM owners WHERE age>=30;
+
+8. SELECT * FROM owners WHERE name LIKE 'E%';
+
+9. INSERT INTO owners (name, age) VALUES ('John', 33);
+
+10. INSERT INTO owners (name, age) VALUES ('Jane', 43);
+
+11. UPDATE owners SET age=30 WHERE name='Jane';
+
+12. UPDATE owners SET name = 'Jane' WHERE name = 'Jane';
+
+13. INSERT INTO properties (name, units, owner_id) VALUES ('Archstone', 20, 2);
+
+14. DELETE FROM owners WHERE name = 'Jane';
+
+15. SELECT * FROM properties WHERE name != 'Archstone' AND owner_id=3 AND ownerid!=5 ORDER BY name ASC;
+
+16. SELECT COUNT (name) FROM properties;
+
+17. SELECT MAX (age) FROM owners;
+
+18. SELECT * FROM owners WHERE owners_id IN (1,2,3);
+
+19. I didn't get 19 & 20 last night but understand them now since we went over it in class.  Wasn't sure if I should update them or not, but marked them down in a separate file.
+
+20. See 19 ^
